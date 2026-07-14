@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Data with PII - MUST NOT COMMIT
+# scientific_data.csv contains names/emails, use anonymized_data.csv instead
+data/scientific_data.csv
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fff
+*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# Large files / raw PDFs (contain PII)
+extracted_pdfs/
+*.zip
+all_psychometry_data.xlsx
+fixed_psychometry_data.xlsx
+10072026*.xlsx

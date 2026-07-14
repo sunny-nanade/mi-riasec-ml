@@ -1,0 +1,93 @@
+{
+  "n_samples": 107,
+  "n_classes": 6,
+  "random_baseline": 0.16666666666666666,
+  "majority_class_baseline": 0.308411214953271,
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy_mean": 0.8147186147186145,
+      "accuracy_std": 0.089669972035569,
+      "f1_mean": 0.7913286449000733,
+      "f1_std": 0.09379457902215849,
+      "accuracy_folds": [
+        0.7727272727272727,
+        0.6818181818181818,
+        0.9523809523809523,
+        0.8095238095238095,
+        0.8571428571428571
+      ]
+    },
+    "SVM (RBF)": {
+      "accuracy_mean": 0.6177489177489177,
+      "accuracy_std": 0.07492554852405173,
+      "f1_mean": 0.5300130557273415,
+      "f1_std": 0.0695814478872515,
+      "accuracy_folds": [
+        0.5,
+        0.6363636363636364,
+        0.6666666666666666,
+        0.5714285714285714,
+        0.7142857142857143
+      ]
+    },
+    "Random Forest": {
+      "accuracy_mean": 0.5623376623376622,
+      "accuracy_std": 0.0871238336837699,
+      "f1_mean": 0.5084027660651037,
+      "f1_std": 0.0676483992970487,
+      "accuracy_folds": [
+        0.4090909090909091,
+        0.5454545454545454,
+        0.6190476190476191,
+        0.5714285714285714,
+        0.6666666666666666
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy_mean": 0.6281385281385281,
+      "accuracy_std": 0.09393440647481952,
+      "f1_mean": 0.5784880093168864,
+      "f1_std": 0.09168630791936554,
+      "accuracy_folds": [
+        0.5,
+        0.5454545454545454,
+        0.7619047619047619,
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    }
+  },
+  "best_model": "Logistic Regression",
+  "lr_cv_accuracy_mean": 0.8147186147186145,
+  "lr_cv_accuracy_std": 0.089669972035569,
+  "lr_holdout_accuracy": 0.8888888888888888,
+  "shap_total_importance": {
+    "VL": 0.058346187885572,
+    "LM": 0.08107019071147599,
+    "Mus": 0.10480600123428419,
+    "Intra": 0.14658322444519442,
+    "SV": 0.15102491538228266,
+    "Inter": 0.20218154728452706,
+    "BK": 0.22410153615350228,
+    "Nat": 0.4123221190910117
+  },
+  "formula_verification": {
+    "REALISTIC Score": true,
+    "INVESTIGATIVE Score": true,
+    "ARTISTIC Score": true,
+    "SOCIAL Score": true,
+    "ENTERPRISING Score": true,
+    "CONVENTIONAL Score": true
+  },
+  "clustering": {
+    "silhouette_k2": 0.230111922891709,
+    "silhouette_k3": 0.17588635155710092,
+    "pca_var_pc1": 47.4579703723449,
+    "pca_var_pc2": 12.159586043441202,
+    "archetype_sizes": {
+      "High Cognitive Engagement": 32,
+      "Moderate Cognitive Engagement": 51,
+      "Developing Cognitive Engagement": 24
+    }
+  }
+}

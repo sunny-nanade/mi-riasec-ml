@@ -1,0 +1,21 @@
+Logistic Regression Classification Report
+Predicting Dominant RIASEC Domain from 8 MI Raw Scores
+
+5-Fold CV Accuracy: 0.815 +/- 0.090
+Hold-out Accuracy (25% split, n=27): 0.889
+Random Baseline: 0.167
+Majority-Class Baseline: 0.308
+
+--- 5-Fold CV Report ---
+               precision    recall  f1-score   support
+
+     ARTISTIC       0.83      0.62      0.71         8
+ CONVENTIONAL       0.81      0.85      0.83        20
+ ENTERPRISING       0.81      0.91      0.86        33
+INVESTIGATIVE       0.71      0.56      0.62         9
+    REALISTIC       0.81      0.92      0.86        24
+       SOCIAL       0.89      0.62      0.73        13
+
+     accuracy                           0.81       107
+    macro avg       0.81      0.75      0.77       107
+ weighted avg       0.81      0.81      0.81       107
